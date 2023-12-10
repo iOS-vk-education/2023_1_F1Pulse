@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144005EC2B162D7D0013F2DF /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144005EB2B162D7D0013F2DF /* History.swift */; };
+		144005EF2B1632B30013F2DF /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144005EE2B1632B30013F2DF /* HistoryCollectionViewCell.swift */; };
+		1448853B2B16079C0059B2E2 /* RacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448853A2B16079C0059B2E2 /* RacesController.swift */; };
+		1448853D2B1607B70059B2E2 /* RaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448853C2B1607B70059B2E2 /* RaceCollectionViewCell.swift */; };
+		144885412B160C730059B2E2 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144885402B160C730059B2E2 /* Race.swift */; };
+		144885442B1611D00059B2E2 /* RaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144885432B1611D00059B2E2 /* RaceTableViewCell.swift */; };
 		744EC2FF2B077E08002B6325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EC2FE2B077E08002B6325 /* AppDelegate.swift */; };
 		744EC3012B077E08002B6325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EC3002B077E08002B6325 /* SceneDelegate.swift */; };
-		744EC3032B077E08002B6325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EC3022B077E08002B6325 /* ViewController.swift */; };
 		744EC3082B077E09002B6325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EC3072B077E09002B6325 /* Assets.xcassets */; };
 		74F1CD2F2B0CE29A00288AD1 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD2E2B0CE29A00288AD1 /* NewsController.swift */; };
 		74F1CD312B0CE2C100288AD1 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD302B0CE2C100288AD1 /* HistoryController.swift */; };
@@ -19,14 +24,18 @@
 		74F1CD392B0CE48C00288AD1 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD382B0CE48C00288AD1 /* BaseController.swift */; };
 		74F1CD3B2B0CE50100288AD1 /* Resourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD3A2B0CE50100288AD1 /* Resourses.swift */; };
 		74F1CD3E2B0CE57F00288AD1 /* UIcolor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD3D2B0CE57F00288AD1 /* UIcolor + ext.swift */; };
-		74F1CD402B0CE62100288AD1 /* RacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1CD3F2B0CE62100288AD1 /* RacesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144005EB2B162D7D0013F2DF /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		144005EE2B1632B30013F2DF /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		1448853A2B16079C0059B2E2 /* RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesController.swift; sourceTree = "<group>"; };
+		1448853C2B1607B70059B2E2 /* RaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		144885402B160C730059B2E2 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		144885432B1611D00059B2E2 /* RaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTableViewCell.swift; sourceTree = "<group>"; };
 		744EC2FB2B077E08002B6325 /* F1_pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1_pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744EC2FE2B077E08002B6325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744EC3002B077E08002B6325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		744EC3022B077E08002B6325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		744EC3072B077E09002B6325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744EC30C2B077E09002B6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F1CD2E2B0CE29A00288AD1 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
@@ -37,7 +46,6 @@
 		74F1CD382B0CE48C00288AD1 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		74F1CD3A2B0CE50100288AD1 /* Resourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourses.swift; sourceTree = "<group>"; };
 		74F1CD3D2B0CE57F00288AD1 /* UIcolor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + ext.swift"; sourceTree = "<group>"; };
-		74F1CD3F2B0CE62100288AD1 /* RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143601882B0E54FE00E69D77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				144005ED2B1632930013F2DF /* History */,
+				144885372B1607630059B2E2 /* Races */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		143601892B0E550800E69D77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1448853A2B16079C0059B2E2 /* RacesController.swift */,
+				74F1CD2E2B0CE29A00288AD1 /* NewsController.swift */,
+				74F1CD302B0CE2C100288AD1 /* HistoryController.swift */,
+				74F1CD322B0CE41500288AD1 /* RanksController.swift */,
+				74F1CD342B0CE46000288AD1 /* NavBarController.swift */,
+				74F1CD362B0CE47300288AD1 /* TabBarController.swift */,
+				74F1CD382B0CE48C00288AD1 /* BaseController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1436018A2B0E551100E69D77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				144885402B160C730059B2E2 /* Race.swift */,
+				144005EB2B162D7D0013F2DF /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1436018B2B0E552900E69D77 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		1436018C2B0E553400E69D77 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				74F1CD3A2B0CE50100288AD1 /* Resourses.swift */,
+				744EC3072B077E09002B6325 /* Assets.xcassets */,
+				744EC2FE2B077E08002B6325 /* AppDelegate.swift */,
+				744EC3002B077E08002B6325 /* SceneDelegate.swift */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		144005ED2B1632930013F2DF /* History */ = {
+			isa = PBXGroup;
+			children = (
+				144005EE2B1632B30013F2DF /* HistoryCollectionViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		144885372B1607630059B2E2 /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				1448853C2B1607B70059B2E2 /* RaceCollectionViewCell.swift */,
+				144885432B1611D00059B2E2 /* RaceTableViewCell.swift */,
+			);
+			path = Races;
+			sourceTree = "<group>";
+		};
 		744EC2F22B077E07002B6325 = {
 			isa = PBXGroup;
 			children = (
@@ -70,19 +145,12 @@
 		744EC2FD2B077E08002B6325 /* F1_pulse */ = {
 			isa = PBXGroup;
 			children = (
-				744EC2FE2B077E08002B6325 /* AppDelegate.swift */,
-				744EC3002B077E08002B6325 /* SceneDelegate.swift */,
-				744EC3022B077E08002B6325 /* ViewController.swift */,
-				74F1CD3A2B0CE50100288AD1 /* Resourses.swift */,
-				74F1CD2E2B0CE29A00288AD1 /* NewsController.swift */,
-				74F1CD3F2B0CE62100288AD1 /* RacesController.swift */,
-				74F1CD302B0CE2C100288AD1 /* HistoryController.swift */,
-				74F1CD322B0CE41500288AD1 /* RanksController.swift */,
-				74F1CD342B0CE46000288AD1 /* NavBarController.swift */,
-				74F1CD362B0CE47300288AD1 /* TabBarController.swift */,
-				74F1CD382B0CE48C00288AD1 /* BaseController.swift */,
+				1436018C2B0E553400E69D77 /* Resourses */,
+				1436018B2B0E552900E69D77 /* APIClient */,
+				1436018A2B0E551100E69D77 /* Models */,
+				143601892B0E550800E69D77 /* Controllers */,
+				143601882B0E54FE00E69D77 /* Views */,
 				74F1CD3C2B0CE54A00288AD1 /* Extensions */,
-				744EC3072B077E09002B6325 /* Assets.xcassets */,
 				744EC30C2B077E09002B6325 /* Info.plist */,
 			);
 			path = F1_pulse;
@@ -167,15 +235,19 @@
 			files = (
 				74F1CD312B0CE2C100288AD1 /* HistoryController.swift in Sources */,
 				74F1CD392B0CE48C00288AD1 /* BaseController.swift in Sources */,
-				74F1CD402B0CE62100288AD1 /* RacesController.swift in Sources */,
 				74F1CD372B0CE47300288AD1 /* TabBarController.swift in Sources */,
+				144005EF2B1632B30013F2DF /* HistoryCollectionViewCell.swift in Sources */,
+				1448853D2B1607B70059B2E2 /* RaceCollectionViewCell.swift in Sources */,
+				1448853B2B16079C0059B2E2 /* RacesController.swift in Sources */,
 				74F1CD3B2B0CE50100288AD1 /* Resourses.swift in Sources */,
 				74F1CD2F2B0CE29A00288AD1 /* NewsController.swift in Sources */,
-				744EC3032B077E08002B6325 /* ViewController.swift in Sources */,
 				74F1CD352B0CE46000288AD1 /* NavBarController.swift in Sources */,
 				744EC2FF2B077E08002B6325 /* AppDelegate.swift in Sources */,
+				144005EC2B162D7D0013F2DF /* History.swift in Sources */,
 				744EC3012B077E08002B6325 /* SceneDelegate.swift in Sources */,
 				74F1CD3E2B0CE57F00288AD1 /* UIcolor + ext.swift in Sources */,
+				144885442B1611D00059B2E2 /* RaceTableViewCell.swift in Sources */,
+				144885412B160C730059B2E2 /* Race.swift in Sources */,
 				74F1CD332B0CE41500288AD1 /* RanksController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +376,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YG2MGDDMUP;
+				DEVELOPMENT_TEAM = KAJHN4W8YQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = F1_pulse/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = F1;
@@ -335,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YG2MGDDMUP;
+				DEVELOPMENT_TEAM = KAJHN4W8YQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = F1_pulse/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = F1;
